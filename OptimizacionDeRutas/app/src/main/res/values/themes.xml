@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <style name="Theme.OptimizacionDeRutas" parent="android:Theme.Material.Light.NoActionBar"/>
 
-    <style name="Theme.OptimizacionDeRutas" parent="android:Theme.Material.Light.NoActionBar" />
+    <!--Tema Personalizado 1-->
+    <style name="Theme.AppThemeCustom" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--Tema Personalizado 2-->
+    <style name="Theme.Loading" parent="Theme.AppCompat.Light">
+        <item name="android:windowBackground">@drawable/ic_launcher_loading</item>
+    </style>
+
+    <!--Tema Personalizado 3-->
+    <style name="Theme.AppThemeCustomMunicipality" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/red</item>
+        <item name="colorPrimaryDark">@color/red</item>
+        <item name="colorAccent">@color/red</item>
+    </style>
 </resources>

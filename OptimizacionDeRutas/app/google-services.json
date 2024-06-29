@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "135215667252",
+    "project_id": "routeoptimization-8a5b4",
+    "storage_bucket": "routeoptimization-8a5b4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:135215667252:android:d24a1165786797d1df9261",
+        "android_client_info": {
+          "package_name": "com.ba.optimizacionderutas"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJpZAvuTpP5KxREa_luXuLk9qhkNDXqTk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

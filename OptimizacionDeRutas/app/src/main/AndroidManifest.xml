@@ -10,15 +10,16 @@
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.OptimizacionDeRutas"
+        android:theme="@style/Theme.AppThemeCustomMunicipality"
         tools:targetApi="31">
+
+        <!-- Login -->
         <activity
-            android:name=".MainActivity"
+            android:name=".AuthActivity"
             android:exported="true"
-            android:label="@string/app_name"
-            android:theme="@style/Theme.AppCompat">
+            android:label="@string/login_name"
+            android:theme="@style/Theme.AppThemeCustomMunicipality">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -26,6 +27,25 @@
             </intent-filter>
         </activity>
 
+        <!-- Home -->
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false"
+            android:label="@string/home_name"
+            android:theme="@style/Theme.AppThemeCustomMunicipality">
+
+        </activity>
+
+        <!-- Mapa Principal -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.AppThemeCustomMunicipality">
+
+        </activity>
+
+        <!-- Configuracion para mi Mapa -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />

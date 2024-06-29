@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">OptimizacionDeRutas</string>
+
+    <string name="login_name">Route Opimization</string>
+    <string name="home_name">Inicio</string>
+    <string name="app_name">Mapa</string>
+
 </resources>
